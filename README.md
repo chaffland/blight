@@ -1,1 +1,1 @@
-# Taint
+# Blight

@@ -1,8 +1,8 @@
 {
-  "name": "taint",
+  "name": "@chaffity/blight",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/taint.js",
+  "main": "lib/blight.js",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iainreid820/taint.git"
+    "url": "git+https://github.com/chaffity/blight.git"
   },
   "keywords": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iainreid820/taint/issues"
+    "url": "https://github.com/chaffity/blight/issues"
   },
-  "homepage": "https://github.com/iainreid820/taint#readme"
+  "homepage": "https://github.com/chaffity/blight#readme"
 }
