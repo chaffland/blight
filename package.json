@@ -3,10 +3,8 @@
   "version": "0.0.1",
   "description": "",
   "main": "lib/blight.js",
-  "engines": {
-    "node": ">=6.0.0"
-  },
   "scripts": {
+    "lint": "eslint lib --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/chaffity/blight/issues"
   },
-  "homepage": "https://github.com/chaffity/blight#readme"
+  "homepage": "https://github.com/chaffity/blight#readme",
+  "eslintConfig": {
+    "extends": "@emphori"
+  },
+  "devDependencies": {
+    "@emphori/eslint-config": "^0.1.4",
+    "eslint": "^6.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
